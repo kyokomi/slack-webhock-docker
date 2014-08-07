@@ -10,6 +10,6 @@ https://github.com/kyokomi/slack-webhock
 ## Run
 
 ```console
-$ docker run -e GITLAB_BASE_URL={gitlab_url} -e GITLAB_TOKEN={gitlab_token} -e SLACK_TOKEN={slack_token} -e SLACK_CHANNEL={slack_channel} -p 80:3000 {docker_image}
+$ docker run -e GITLAB_BASE_URL={gitlab_url} -e GITLAB_TOKEN={gitlab_token} -e SLACK_TOKEN={slack_token} -e SLACK_CHANNEL={slack_channel} -p 80:3000 kyokomi/slack-webhock-docker:latest
 ```
 
